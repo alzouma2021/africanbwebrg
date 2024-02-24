@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "heroku-prebuild": "npm install @vue/cli-service @vue/cli-plugin-babel",
+    "heroku-prebuild": "npm install @vue/cli-service @vue/cli-plugin-babel && npx update-browserslist-db@latest",
     "heroku-postbuild": "npm install",
     "start": "npm run serve",
     "serve": "vue-cli-service serve",
