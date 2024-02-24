@@ -2,7 +2,7 @@
   "name": "africanb",
   "version": "0.1.0",
   "private": true,
-  "scripts": {*
+  "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "test:unit": "vue-cli-service test:unit",
@@ -10,7 +10,6 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
-    "@heroicons/vue": "^2.1.1",
     "axios": "^1.6.2",
     "core-js": "^3.8.3",
     "flush-promises": "^1.0.2",
