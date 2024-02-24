@@ -2,8 +2,7 @@
   "name": "africanb",
   "version": "0.1.0",
   "private": true,
-  "scripts": {
-    "start": "npm install --legacy-peer-deps && node server.js"
+  "scripts": {*
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "test:unit": "vue-cli-service test:unit",
