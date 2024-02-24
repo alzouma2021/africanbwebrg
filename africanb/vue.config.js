@@ -1,10 +1,9 @@
 const { defineConfig } = require('@vue/cli-service')
 module.exports = defineConfig({
   devServer: {
-    public: process.env.HEROKU_APP_NAME
-      ? `https://${process.env.HEROKU_APP_NAME}.herokuapp.com`
-      : 'http://localhost:8080', // Remplacez localhost:8080 par le port de développement de votre choix
-  },
+    // Supprimez l'option 'public'
+    allowedHosts: ['africanweb-26408e5071aa.herokuapp.com'], // Ajoutez le domaine Heroku à la liste des hosts autorisés
+  },,
   transpileDependencies: [
     'vuetify'
   ],
